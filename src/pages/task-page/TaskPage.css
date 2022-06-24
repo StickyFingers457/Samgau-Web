@@ -1,0 +1,27 @@
+.problemPage__info {
+    padding: 20px;
+  }
+
+.problemPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.problemPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.problemPage__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+    color: rgb(49, 45, 70);
+    background-color: rgb(255, 255, 255);
+  }
+  .problemPage__info > button:hover {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 26, 72);
+  }

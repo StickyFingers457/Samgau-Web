@@ -1,0 +1,73 @@
+.problemResult {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.problemResult:hover {
+    opacity: 0.8;
+}
+
+.problemResult > img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.problemResult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.problemResult__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.problemResult__infoTop {
+    width: 40vw;
+}
+
+.problemResult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.problemResult__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+.problemResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.problemResult__star {
+    color: red;
+}
+
+
+.problemResult__stars {
+    display: flex;
+    align-items: center;
+}
+
+.problemResults__price > p {
+    text-align: right;
+  }
+
+.problemResults__level {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}

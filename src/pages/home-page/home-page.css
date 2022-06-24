@@ -1,0 +1,14 @@
+.home-page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    
+    justify-content: space-between;
+    
+}
+.main hr{
+    border: none;
+    background: #8dcde0;
+    height: 1px;
+    margin: 20px 0;
+}

@@ -1,0 +1,54 @@
+.banner{
+    
+    max-width: 1070px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+}
+.banner__info{
+    font-weight: bold;
+}
+ span{
+    color: rgb(168, 243, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.banner__info p{
+    font-weight: 400;
+}
+/*.banner {
+    background: url("/public/images/kruzhka.jpg");
+    background-repeat:round;
+    height: 80vh;
+    //position: relative;  
+}
+
+.banner__info {
+    background-color: rgb(30, 29, 29);
+    color: white;
+    padding-top: 3vh;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    width: 390px;
+    margin: auto;
+    
+}
+
+.banner__info > button {
+    background-color: #ef1b5b;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: #ffffff;
+    color: rgb(30, 29, 29);
+    
+}*/
