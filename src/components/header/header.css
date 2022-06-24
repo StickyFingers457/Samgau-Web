@@ -4,6 +4,12 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    width: 100%;
 }
 
 .wrapper{
