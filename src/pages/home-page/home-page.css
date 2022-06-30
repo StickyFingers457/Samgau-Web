@@ -1,0 +1,26 @@
+
+.home-page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1070px;
+    justify-content: space-between; 
+    
+}
+.main hr{
+    border: none;
+    background: #8dcde0;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    max-width: 1080px;
+}
+/*.home-page__banner{
+
+}
+style={{
+    backgroundImage: "url(/images/look3-3.png)",
+    backgroundRepeat: 'no-repeat',
+    width: '250px'
+}}*/

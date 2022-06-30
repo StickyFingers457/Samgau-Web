@@ -1,0 +1,32 @@
+.footer{
+    background: #fcfcfc;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 30px 0 30px;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+.footer p{
+    color: #000;
+}
+.footer h3{
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer hr{
+    border: none;
+    background: #8dcde0;
+    max-width: 1080px;
+    height: 1px;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+.above-hr{
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}

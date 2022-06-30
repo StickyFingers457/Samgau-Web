@@ -1,0 +1,110 @@
+body {
+    font-family: monospace;
+
+}
+
+.tv2 {
+    position: relative;
+
+    cursor: pointer;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+
+    box-shadow: 10px 10px #64b3eb ;
+    transition: all .4s ease;
+}
+
+.tv2:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 5px 5px #0e87dd ;
+}
+
+.account-good {
+    border-top-left-radius: 121px 32px;
+    border-top-right-radius: 57px 191px;
+    border-bottom-left-radius: 20px 78px;
+    border-bottom-right-radius: 27px 99px;
+    /*wrap*/
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 50px;*/
+    justify-content: center;
+    /*justify-content: space-between;*/
+    /*wrap*/
+    /*display: block;*/
+    position: relative;
+    border: solid 3px #0e87dd;
+    padding: 40px 60px;
+    max-width: 770px;
+    background-color: #ffffff
+    ;
+
+    /*margin: 100px auto 0;*/
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+}
+
+.account-good:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+.account-good:hover .border {
+    transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+    position: absolute;
+    transition: all 0.13s ease-in;
+}
+
+.border:before,
+.border:after {
+    color: #515d9c;
+    font-size: 15px;
+    position: absolute;
+}
+
+.block {
+    display: inline-block;
+    max-width: 164px;
+    height: 220px;
+    margin: 25px;
+    /*border :solid red ;*/
+    border-radius: 10px;
+
+}
+
+.block .account-good_img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+.texxt {
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #0e87dd;
+}
+.account-good__items{
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 50px;*/
+    justify-content: center;
+    /*justify-content: space-between;*/
+    /*wrap*/
+    /*display: block;*/
+    position: relative;
+    max-width: 770px;
+}

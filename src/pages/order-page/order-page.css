@@ -1,0 +1,19 @@
+.order-page {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin: auto;
+}
+
+.order-page__left {
+    width: 70%;
+}
+
+.order-page__right {
+    width: 27%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.order-page__text{
+    z-index: 100;
+}

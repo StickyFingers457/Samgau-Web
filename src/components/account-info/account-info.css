@@ -1,0 +1,102 @@
+.imgBorder {
+
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 12px solid transparent;
+  background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(352deg, #2bc53a   36%, #0e87dd  30%),
+                    linear-gradient(89deg, #0e87dd  36%, #0e87dd  30%),
+                    linear-gradient(242deg, #f15641 36%, #2bc53a 30%),
+                    linear-gradient(85deg, #f15641 36%, #f15641 30%);
+  background-position: center center, left top, right top, left bottom, right bottom;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+  
+}
+
+body {
+  font-family: monospace;
+}
+
+.account-info {
+  color: gray;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  display: block;
+  position: relative;
+  border: solid 3px #0e87dd;
+  padding: 40px 60px;
+  max-width: 350px;
+  height: 500px;
+  /*margin: 100px auto 0;*/
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+  background-color: #ffffff
+}
+
+.account-info:hover {
+  color: black;
+  transform: translateY(-10px) rotate(1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+.account-info:hover .border {
+  transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+  position: absolute;
+  transition: all 0.13s ease-in;
+}
+
+.border:before, 
+.border:after {
+  color: #515d9c;
+  font-size: 15px;
+  position: absolute;
+}
+
+/*pre {
+    background: #edeff5;
+    padding: 20px;
+  }*/
+
+.account-info p {
+  position: relative;
+}
+
+.account-info p::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #0e87dd ;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.account-info p:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.Button{
+  
+  color: black;
+  text-decoration: none;
+ 
+}

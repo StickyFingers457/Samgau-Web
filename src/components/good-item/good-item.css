@@ -1,0 +1,58 @@
+.good-item{
+    text-decoration: none;
+    color: #000;
+    width: 320px;
+    height: 300px;
+    background-color: #c8e7f2 ;
+    border-radius: 17px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px 0px rgba(60, 229, 255, 0.75);
+    transition: transform 0.5s;
+}
+.good-item:hover{
+    transform: translateY(-10px);
+}
+
+.good-item:not(:last-child){
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.good-item__title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.good-item__details{
+    padding:  20px;
+}
+
+.good-item__description{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.good-item__buy{
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+}
+
+
+.testimonial .col-1{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-1 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-1:hover{
+    transform: translateY(-10px);
+}

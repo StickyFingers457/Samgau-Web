@@ -1,0 +1,136 @@
+.form {
+    margin: auto;
+    margin-top: 123px;
+    margin-bottom: 160px;
+    border: solid #591e98;
+    max-width: 700px;
+    padding: 20px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.login-form {
+    background-color: rgb(156, 83, 152);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+    display: flex;
+}
+
+.error {
+    color: #4a5fc6;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.textt {
+    color: black;
+    display: flex;
+    font-size: large;
+}
+
+.login-page__icon {
+    cursor: pointer;
+    position: relative;
+    padding-right: 15px;
+}
+
+.tv {
+    position: relative;
+
+    cursor: pointer;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+
+    box-shadow: 10px 10px #6e7491;
+    transition: all .4s ease;
+}
+
+.tv:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 5px 5px rgba(174, 245, 247, 0.75);
+}
+
+.form-head {
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__logoAuthorization {
+    height: 50px;
+    margin: auto;
+}
+
+.login__signInButton {
+    background-color: #591e98;
+    color: rgb(248, 248, 248);
+    border-radius: 2px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__signInButton:hover {
+    background-color: rgb(248, 248, 248);
+    color: #591e98;
+}
+
+.login__registerButton {
+    background-color: #591e98;
+    color: rgb(248, 248, 248);
+    border-radius: 2px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
+
+.login__registerButton:hover {
+    background-color: rgb(248, 248, 248);
+    color: #591e98;
+}
+
+.samgau-logo {
+    align-items: center;
+    width: 100%;
+}
+
+.samgau-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
