@@ -25,7 +25,7 @@ export const Banner = () => {
                     data-aos-mirror="true"
                 >
                     <h1 className='banner-text'>Выполняйте <span className='red'>Задачи🎈</span> Зарабатывайте <span className='green'>Бонусы💸</span> Получайте <span className='blue'>Подарки💎</span></h1>
-                    <h5 className='banner-text__little'>Сайт самгау для сотрудников</h5>
+                    <h5 className='banner-text__little'>Сайт Samgau для сотрудников</h5>
 
                     
                     <Button onClick={() => history('/task')} variant='outlined'>Задачи!</Button>

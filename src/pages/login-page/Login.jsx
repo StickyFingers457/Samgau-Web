@@ -52,7 +52,7 @@ function Login() {
                     <label className="textt"> Пароль: </label>
                     <input type="password" value={password} onChange=
                     {e => setPassword(e.target.value)} name="pass" placeholder="Password" required />
-                   
+                    
                 </div>
 
                 <div className="button-container">

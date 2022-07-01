@@ -93,35 +93,6 @@ input[type="password"] {
     margin: auto;
 }
 
-.login__signInButton {
-    background-color: #591e98;
-    color: rgb(248, 248, 248);
-    border-radius: 2px;
-    height: 30px;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-}
-
-.login__signInButton:hover {
-    background-color: rgb(248, 248, 248);
-    color: #591e98;
-}
-
-.login__registerButton {
-    background-color: #591e98;
-    color: rgb(248, 248, 248);
-    border-radius: 2px;
-    height: 30px;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: darkgray;
-}
-
-.login__registerButton:hover {
-    background-color: rgb(248, 248, 248);
-    color: #591e98;
-}
 
 .samgau-logo {
     align-items: center;
@@ -133,4 +104,18 @@ input[type="password"] {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+
+.button-container > button {
+    background-color: #591e98;
+    color: rgb(248, 248, 248);
+    border-radius: 2px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.button-container > button:hover{
+    background-color: rgb(248, 248, 248);
+    color: #591e98;
 }
